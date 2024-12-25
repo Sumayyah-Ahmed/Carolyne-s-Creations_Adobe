@@ -1,0 +1,140 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carolyne's Creations: Premier Gourmet Food Shop</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="cc_styles.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+<meta name="description" content="Carolyne's Creations is a gourmet food shop. We offer cooking classes, take-out meals, and catering services. We also have a retail side that stocks gourmet items and kitchen accessories.">
+<meta name="keywords" content="Carolyne's Creations, gourmet, catering, cooking classses, kitchen accessories, take-out, Seven Falls, Virginia">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('assets/dulce_de_leche.jpg')">
+	<div class="gridContainer clearfix">
+<div id="content" class="fluid">
+  <header class="fluid header_div"></header>
+		  <div class="fluid intro_paragraph">
+		      <nav class="menu_bar"><a href="index.html">Home</a>  <a href="shop.html">Shop</a>  <a href="classes.html">Classes</a>  <a href="catering.html">Catering</a>  <a href="recipes.html">Recipes</a></nav>
+		    <h2>
+		      Cooking Classes are fun!
+            </h2>
+		    <p>Chef Carolyne loves to offer a fun and relaxing cooking school each month in her newly refurbished kitchen. She teaches an adults' class on the fourth Saturday of each month from 6:00 to 8:00 pm. Each class will learn to cook a complete dinner and then enjoy the meal at the end of the class with a wonderful wine pairing. This is a great chance to get together with friends for a fun evening. </p>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('dessert_rollover','','assets/dulce_de_leche.jpg',1)"><img id="dessert_rollover" src="assets/egyptian_traditional_dessert.jpg" alt="Traditional Dessert" class="img_float"></a>
+			<p>Chef Carolyne also teaches a children's class on the second Tuesday of each month from 4:00 to 5:30 pm. Our young chefs will learn to cook two dishes that will accompany a full meal served at 5:30 pm. Children aged 5–8 years accompanied by an adult are welcome. We also host small birthday parties where we put the guests to work baking and decorating the cake! Call for times and prices.		      </p>
+		    <p>We offer several special adults' classes throughout the year. The Valentine Chocolate Extravaganza is a particular favorite. You will learn to dip strawberries, make truffles, and bake a sinful Triple Chocolate Dare You Torte. We also host the Not So Traditional Thanksgiving class and the Super Bowl Snacks class each year with rave reviews. Watch the website for details!
+		      
+		      Prices are $40.00 for each <a href="adults.html">adults' class</a> and $15.00 for each <a href="children.html">children's class.</a> Sign up for classes by calling 555-963-8271 or by emailing us: <a href="carolyne@carolynescreations.com">Sign me up! </a> See what's cooking this month for the adults' class and children's class. </p>
+	
+			  <form method="post" target="_self" id="classes"><table>
+  <tbody>
+    <tr>
+      <th colspan="2" scope="col">Class Registration Form</th>
+      </tr>
+    <tr>
+      <td>Please select the class:</td>
+      <td rowspan="10" class="table_pie"><img src="assets/argentina_meringue.jpg" alt="A plate with a slice of pie on it."/></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" name="adult" id="adult">
+        <label for="adult">Adults' Class </label></td>
+      </tr>
+    <tr>
+      <td><input type="checkbox" name="children" id="children">
+        <label for="children">Children's Class </label></td>
+      </tr>
+    <tr>
+      <td>Please select the month:</td>
+      </tr>
+    <tr>
+      <td><p>
+        <label>
+          <input type="radio" name="month" value="march" id="month_0">
+          March</label>
+        <br>
+        <label>
+          <input type="radio" name="month" value="april" id="month_1">
+          April</label>
+        <br>
+      </p></td>
+      </tr>
+    <tr>
+      <td><label for="number">Contact Number:</label>
+        <input name="number" type="text" id="number" size="15"></td>
+      </tr>
+    <tr>
+      <td><label for="first">First Name:</label>
+        <input name="first" type="text" id="first" size="15"></td>
+      </tr>
+    <tr>
+      <td><label for="last">Last Name:</label>
+        <input name="last" type="text" id="last" size="15"></td>
+      </tr>
+    <tr>
+      <td>&nbsp;</td>
+      </tr>
+    <tr>
+      <td><input type="submit" name="submit" id="submit" value="Submit">
+        <input type="reset" name="reset" id="reset" value="Reset"></td>
+      </tr>
+  </tbody>
+</table>
+</form>
+			  
+		<div id="address">
+            <p>Carolyne's Creations<br>
+              496 Maple Avenue<br>
+              Seven Falls, Virginia 52404<br>
+              555-963-8271<br>
+            Email <a href="mailto:carolyne@carolynescreations.com">Carolyne Kate</a> </p>
+		</div>
+    </div>
+</div>
+<div class="fluid footer_div">Copyright 2002 - 2016<br>
+Last updated on 
+  <!-- #BeginDate format:Am1 -->April 24, 2024<!-- #EndDate -->
+</div>
+</div>
+</body>
+</html>
